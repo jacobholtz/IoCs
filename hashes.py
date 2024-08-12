@@ -2,21 +2,31 @@ import requests
 import json
 
 # Open file to write
-f = open("lockbit_sha256_hashes", "w")
+f = open("lockbit_sha256_hashes", "w")  
 
-data = {
-    'query': 'get_siginfo',
-    'signature': 'lockbit',
-}
+def malwarebazaar():
+    f.write("##### Malware Bazaar #####\n")
 
-response = requests.post('https://mb-api.abuse.ch/api/v1/', data=data, timeout=15)
-json_response = response.content.decode("utf-8", "ignore")
+    data = {
+        'query': 'get_siginfo',
+        'signature': 'lockbit',
+    }
 
-hashDict = json.loads(json_response)
+    response = requests.post('https://mb-api.abuse.ch/api/v1/', data=data, timeout=15)
+    json_response = response.content.decode("utf-8", "ignore")
 
-for hashValue in hashDict['data']:
-    hash = hashValue['sha256_hash']
-    f.write(hash + "\n")
+    hashDict = json.loads(json_response)
 
-# Close the file
-f.close()
+    for hashValue in hashDict['data']:
+        hash = hashValue['sha256_hash']
+        f.write(hash + "\n")
+
+    # Close the file
+    f.close()
+
+def main():
+    # Start the scans
+    malwarebazaar()
+
+if __name__ == "__main__":
+    main()
