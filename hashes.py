@@ -1,6 +1,9 @@
 import requests
 import json
 
+# Open file to write
+f = open("LockBit_sha256_hashes", "w")
+
 data = {
     'query': 'get_siginfo',
     'signature': 'lockbit',
@@ -13,4 +16,7 @@ hashDict = json.loads(json_response)
 
 for hashValue in hashDict['data']:
     hash = hashValue['sha256_hash']
-    print(hash)
+    f.write(hash)
+
+# Close the file
+f.close()
