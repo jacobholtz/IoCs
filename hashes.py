@@ -30,7 +30,9 @@ def main():
     malwarebazaar()
 
     # Add and push to github
-    subprocess.run(["git", "add", "lockbit_sha256_hashes", ";", "git", "commit", "-m", "Update", "hashes", ";", "git", "push"])
+    subprocess.run(["git", "add", "lockbit_sha256_hashes"])
+    subprocess.run(["git", "commit", "-m", "Update hashes"])
+    subprocess.run(["git", "push"])
 
 if __name__ == "__main__":
     main()
