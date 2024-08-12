@@ -1,5 +1,6 @@
 import requests
 import json
+import subprocess
 
 # Open file to write
 f = open("lockbit_sha256_hashes", "w")  
@@ -27,6 +28,9 @@ def malwarebazaar():
 def main():
     # Start the scans
     malwarebazaar()
+
+    # Add and push to github
+    subprocess.run(["git", "add", "lockbit_sha256_hashes", ";", "git", "commit", "-m", "Update", "hashes", ";", "git", "push"])
 
 if __name__ == "__main__":
     main()
