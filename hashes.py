@@ -5,6 +5,7 @@ import subprocess
 # Open file to write
 f = open("lockbit_sha256_hashes", "w")  
 
+# APIs to pull hashes from
 def malwarebazaar():
     f.write("##### Malware Bazaar #####\n")
 
@@ -24,6 +25,8 @@ def malwarebazaar():
 
     # Close the file
     f.close()
+
+
 
 def main():
     # Start the scans
