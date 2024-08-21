@@ -1,3 +1,9 @@
+"""
+TODO:
+Automatically get latest hashes from malware bazaar for a particular malware
+Save to file, upload to GitHub
+"""
+
 import requests
 import json
 import subprocess
