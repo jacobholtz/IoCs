@@ -1,8 +1,5 @@
 """
 TODO:
-Automatically get latest hashes from malware bazaar for a particular malware
-Save to file, upload to GitHub
-MDE query will grab the hashes from the GitHub file
 For some reason samples submitted by anonymous accounts are skipped
 """
 
