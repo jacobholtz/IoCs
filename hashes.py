@@ -1,6 +1,7 @@
 """
 TODO:
 For some reason samples submitted by anonymous accounts are skipped
+Add ThreatFox implementation
 """
 
 import requests, json, subprocess, sys
