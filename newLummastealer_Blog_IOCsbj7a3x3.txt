@@ -1,6 +1,6 @@
-388f910e662f69c7ab6fcf5e938ba813cf92c7794e5c3a6ad29c2d9276921ed3  - TrojanSpy.Win64.LUMMASTEALER.YXFGHZ 
+388f910e662f69c7ab6fcf5e938ba813cf92c7794e5c3a6ad29c2d9276921ed3 - TrojanSpy.Win64.LUMMASTEALER.YXFGHZ 
 fa8be0ce6f177965a5cd2db80e57c49fb31083bd4ddcb052def24cfbf48d65b5 - TROJ_FRS.VSNTGA25 (Lummastealer Fake Crack Malware)
-64f6c0c0fd736c4a82f545aadc7a1c49d4cea77b14f4b526ef9da56a606eeb3d  - TrojanSpy.Win32.LUMMASTEALER.YXFGAZ  
+64f6c0c0fd736c4a82f545aadc7a1c49d4cea77b14f4b526ef9da56a606eeb3d - TrojanSpy.Win32.LUMMASTEALER.YXFGAZ  
 hxxps://raw[.]githubusercontent[.]com/ferrn1la/Monotone-HWID-Spoofer/5a6acd95d8e321faee3bd97511f3545f6e75f7fd/Monotone[.]exe - Lummastealer Download URL 
 hxxp://github[.]com/r1thessl1/Monotone-HWID-Spoofer/raw/refs/heads/main/Monotone[.]exe -  Lummastealer Download URL 
 hxxp://github[.]com/r1mslicks/FortniteSpoofer/raw/refs/heads/main/TempSpoofer[.]exe - Lummastealer Download URL 
